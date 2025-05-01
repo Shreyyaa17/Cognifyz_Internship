@@ -56,7 +56,3 @@ This responsive and interactive website demonstrates various front-end technique
 - Special thanks to **Cognifyz Technologies** for the structured and insightful internship program.
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License.
