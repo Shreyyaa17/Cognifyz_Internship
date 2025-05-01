@@ -1,0 +1,34 @@
+@use 'sass:color';
+
+// Variables
+$primary-color: #007bff;
+$accent-color: #ffc107;
+$text-color: #333;
+$font-stack: 'Segoe UI', sans-serif;
+
+// Nesting + Modular structure
+body {
+  font-family: $font-stack;
+  background-color: #f8f9fa;
+  color: $text-color;
+
+  .container {
+    padding: 20px;
+
+    h1 {
+      color: $primary-color;
+    }
+
+    button {
+      background-color: $accent-color;
+      border: none;
+      padding: 10px 15px;
+      color: white;
+      cursor: pointer;
+
+      &:hover {
+        background-color: color.adjust($accent-color, $lightness: -10%);
+      }
+    }
+  }
+}
